@@ -1,0 +1,31 @@
+Sex-biased dispersal and the evolution of sex-differences in care
+
+Individual-based simulations
+
+This source code is used in the paper:
+Kuijper, B. & Johnstone RA. (2015) 
+How sex-biased dispersal affects conflict over parental investment
+http://dx.doi.org/10.1101/026732  
+
+What is needed to run this code:
+1. a c++ compiler
+2. an installation of the gnu scientific library (gsl)
+https://www.gnu.org/software/gsl/
+
+Installing gsl in Linux is easy, see the package
+manager for your distribution
+
+Similarly easy in Mac OS X: install homebrew: http://brew.sh 
+and then type 'brew install gsl'
+
+Under Windows installing GSL might be a bit more difficult.
+However, with Mingw (http://www.mingw.org) it should be possible.
+see http://stackoverflow.com/questions/30015656/using-gnu-scientific-library-gsl-under-windows-x64-with-mingw 
+
+In addition, a python script plot_sims.py is added to plot output, which 
+relies on libraries like matplotlib, pandas. These should be
+straightforward to install.
+
+Any questions re the simulations or the analytical model, let me know
+Bram
+
